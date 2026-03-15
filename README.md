@@ -73,6 +73,8 @@ The backup script creates daily backups of:
 
 The script also produces a log file showing when each backup was executed.
 
+![Backup Script](backup-script.png)
+
 ### Monitoring Script
 The monitoring script checks:
 
@@ -80,6 +82,8 @@ The monitoring script checks:
 - Memory usage
 
 If usage exceeds predefined limits, the script records an alert in a log file.
+
+![Monitoring Script](monitoring-script.png)
 
 ### Update Script
 The update script automatically updates the system packages during off-peak hours to ensure system stability and security.  
@@ -95,6 +99,8 @@ All automation scripts are scheduled using cron jobs:
 - Update script → runs daily at 6:00 AM
 
 Cron allows the system to perform maintenance tasks automatically without manual intervention.  
+
+![Crontab Configuration](cron-config.png)
 
 ---
 
