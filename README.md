@@ -1,5 +1,3 @@
-# Delivery-management-system
-
 # GreenGrocer Delivery Management System
 
 This project presents the transformation of a local business called GreenGrocer into an online store through the implementation of a client-server infrastructure.
