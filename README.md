@@ -18,20 +18,20 @@ The system includes:
 - A virtual machine running Linux
 - Automation scripts for system maintenance and monitoring
 
-The infrastructure allows the business to manage customer orders and delivery operations through an online platform. :contentReference[oaicite:1]{index=1}
+The infrastructure allows the business to manage customer orders and delivery operations through an online platform.  
 
 ---
 
 ## Virtual Machine Infrastructure
 
-The system is deployed on a virtual machine created using **VirtualBox** with **Linux Mint**.
+The system is deployed on a virtual machine created using VirtualBox with Linux Mint.
 The virtual machine was configured with:
 
 - 4 GB RAM
 - 1 CPU core
 - 100 GB storage
 
-These resources ensure that the server can support the workload of the delivery management system. :contentReference[oaicite:2]{index=2}
+These resources ensure that the server can support the workload of the delivery management system.  
 
 ---
 
@@ -43,7 +43,7 @@ The server environment includes the following components:
 - **MariaDB** – Database management system
 - **PHP** – Processing dynamic web content
 
-Together, these technologies create a typical LAMP-style infrastructure that allows the system to store data and serve dynamic web pages. :contentReference[oaicite:3]{index=3}
+Together, these technologies create a typical LAMP-style infrastructure that allows the system to store data and serve dynamic web pages.  
 
 ---
 
@@ -56,7 +56,7 @@ Additional plugins were used to support delivery management:
 - Delivery & Pickup Date Time for WooCommerce
 - Local Delivery Drivers for WooCommerce
 
-These plugins allow the system to manage orders, assign drivers and select delivery times. :contentReference[oaicite:4]{index=4}
+These plugins allow the system to manage orders, assign drivers and select delivery times.  
 
 ---
 
@@ -81,7 +81,7 @@ The monitoring script checks:
 If usage exceeds predefined limits, the script records an alert in a log file.
 
 ### Update Script
-The update script automatically updates the system packages during off-peak hours to ensure system stability and security. :contentReference[oaicite:5]{index=5}
+The update script automatically updates the system packages during off-peak hours to ensure system stability and security.  
 
 ---
 
@@ -93,7 +93,7 @@ All automation scripts are scheduled using cron jobs:
 - Monitoring script → runs twice daily at 9:00 AM and 9:00 PM
 - Update script → runs daily at 6:00 AM
 
-Cron allows the system to perform maintenance tasks automatically without manual intervention. :contentReference[oaicite:6]{index=6}
+Cron allows the system to perform maintenance tasks automatically without manual intervention.  
 
 ---
 
@@ -106,7 +106,7 @@ Through the WordPress dashboard, the administrator can:
 - assign drivers
 - configure delivery times
 
-This confirms that the infrastructure and web server are functioning correctly. :contentReference[oaicite:7]{index=7}
+This confirms that the infrastructure and web server are functioning correctly.  
 
 ---
 
@@ -119,4 +119,4 @@ Future improvements for the system could include:
 - improved user interface for customers
 - postcode-based delivery availability checking
 
-These improvements would make the system more secure and scalable for real-world deployment. :contentReference[oaicite:8]{index=8}
+These improvements would make the system more secure and scalable for real-world deployment. 
