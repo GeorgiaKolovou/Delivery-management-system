@@ -57,7 +57,7 @@ Additional plugins were used to support delivery management:
 - Local Delivery Drivers for WooCommerce
 
 These plugins allow the system to manage orders, assign drivers and select delivery times.  
-
+![WordPress Website](wordpress-site.png)
 ---
 
 ## Automation Scripts
