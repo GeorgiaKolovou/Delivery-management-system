@@ -127,3 +127,8 @@ Future improvements for the system could include:
 - postcode-based delivery availability checking
 
 These improvements would make the system more secure and scalable for real-world deployment. 
+
+## Virtual Machine Environment
+
+The system was implemented on a VirtualBox virtual machine running Linux Mint.
+The VM hosts the Apache web server, MariaDB database and WordPress application.
