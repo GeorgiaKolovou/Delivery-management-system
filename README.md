@@ -58,7 +58,7 @@ Additional plugins were used to support delivery management:
 
 These plugins allow the system to manage orders, assign drivers and select delivery times.  
 
-![WordPress Website](wordpress-site.png)
+![WordPress Website](wordpress-site.png.png)
 ---
 
 ## Automation Scripts
